@@ -46,14 +46,15 @@
 var color = "purple";
 
 console.log(color.toUpperCase());
-// the toUpperCase() method is called on the color variable, which stores the string object "purple"
+// the toUpperCase() method is called on the string "color", which stores the string object "purple"
 // the toUpperCase() method is returning a string value converted to uppercase 
 // because purple is a string already, the method doesnt convert it. However if the element isn't a string itll be converted into one
 
 var phrase = "learning is fun"
 
 console.log(phrase.endsWith("fun"));
-
+// the endsWith method is called on the "learning is fun" string expressed through the variable phase to see if the string ends in "fun"
+// the method is returning a value of true because the string does end in fun
 
 
 
