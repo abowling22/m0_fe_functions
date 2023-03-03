@@ -72,3 +72,4 @@ console.log(phrases.sort());
 var firstName = ["d","r","e","w"]
 
 console.log(firstName.join(``))
+// this is joining the strings together 
